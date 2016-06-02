@@ -24,4 +24,12 @@
         <cost>$39.95</cost>
         <shipping>$5.95</shipping>
     </product>
+    <product>
+        <name>Product Four</name>
+        <description>Product Three is better than Product One and
+        Product Two combined! It really is as good as we say it
+        is--or your money back. </description>
+        <cost>$39.95</cost>
+        <shipping>$5.95</shipping>
+    </product>
 </productListing>
