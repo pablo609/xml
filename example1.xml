@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--PROGRESS-->
-<!-- https://www.sitepoint.com/really-good-introduction-xml/ - Starting Our CMS Project -->
+<!-- https://www.sitepoint.com/really-good-introduction-xml/ - A Closer Look at XHTML -->
 <productListing title="ABC Products">
     <product>
         <name>Product One</name>
