@@ -4,12 +4,21 @@
     <xsl:apply-templates select="*"/>
 </xsl:template>
 <xsl:template match="to">
-    TO: <xsl:apply-templates/>
+    <xsl:text>TO: </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>
+    </xsl:text>
 </xsl:template>
 <xsl:template match="from">
-    FROM: <xsl:apply-templates/>
+    <xsl:text>FROM: </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>
+    </xsl:text>
 </xsl:template>
 <xsl:template match="message">
-    MESSAGE: <xsl:apply-templates/>
+    <xsl:text>MESSAGE: </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>
+    </xsl:text>
 </xsl:template>
 </xsl:stylesheet>
