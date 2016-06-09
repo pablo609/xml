@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="letter2html.xsl" version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="letter2xhml.xsl" version="1.0"?>
 <letter>
     <to>Mom</to>
     <from>Tom</from>

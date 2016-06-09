@@ -1,0 +1,21 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
+<xsl:output method="xml" indent="yes" omit-xml-declaration="yes"
+    media-type="application/xhtml+xml" encoding="iso-8859-1"  
+    doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"  
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
+<xsl:template match="/letter">
+    <html>  
+        <head><title>Letter</title></head>
+        <body><xsl:apply-templates/></body>
+    </html>
+</xsl:template>
+<xsl:template match="to">
+    <b>TO: </b><xsl:apply-templates/><br/>
+</xsl:template>
+<xsl:template match="from">
+    <b>FROM: </b><xsl:apply-templates/><br/>
+</xsl:template>
+<xsl:template match="message">
+    <b>MESSAGE: </b><xsl:apply-templates/><br/>
+</xsl:template>
+</xsl:stylesheet>
