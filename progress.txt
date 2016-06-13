@@ -1,1 +1,1 @@
-https://www.sitepoint.com/really-good-introduction-xml/ - Getting Our Hands Dirty
+https://www.sitepoint.com/really-good-introduction-xml/ - Second Case: Using an External DTD for Memos
