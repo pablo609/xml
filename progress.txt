@@ -1,1 +1,1 @@
-https://www.sitepoint.com/really-good-introduction-xml/ - Second Case: Using an External DTD for Memos
+http://www.w3schools.com/xml/default.asp
