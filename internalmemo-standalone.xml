@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE internalmemo [
+<!ELEMENT internalmemo (header,body)>
+<!ELEMENT header (date,sender,recipients,blind-recipients?,subject)>
+<!ELEMENT body (para+,sig)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT sender (#PCDATA)>
+<!ELEMENT recipients (#PCDATA)>
+<!ELEMENT blind-recipients (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT sig (#PCDATA)>
+<!ELEMENT para (#PCDATA|b|i)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT i (#PCDATA)>
+<!ATTLIST internalmemo
+    priority (low|medium|high) #REQUIRED
+    initials CDATA #REQUIRED 
+    expiredate CDATA #REQUIRED
+    origin (marketing|accounting|finance|hq|sales|ops) #REQUIRED>
+]>
+<internalmemo priority="high" initials="hjd" expiredate="01/01/2008" origin="marketing">   
+    <header>   
+        <date>01/05/2004</date>   
+        <sender>Thomas Myer</sender>   
+        <recipients>Marketing Department</recipients>   
+        <subject>Sell more stuff</subject>   
+    </header>   
+    <body>   
+        <para>This is a <i>simple</i> memo from the marketing department: sell <b>more</b> stuff!</para>   
+        <sig>Thomas Myer</sig>   
+    </body>   
+ </internalmemo>
